@@ -1,0 +1,6 @@
+minikube dashboard --port=63840
+
+kubectl port-forward synergychat-web-f765d99db-wrt5x 8080:8080
+
+kubectl proxy
+
